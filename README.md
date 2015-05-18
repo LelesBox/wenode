@@ -9,4 +9,6 @@ node index [城市拼音，默认是南京]
 天气接口如下：
 额额额额。。。。。。说到这里的时候，这个接口挂了~~~
 
+效果如图：
+![img](https://github.com/LelesBox/wenode/blob/master/weather.png)
 
