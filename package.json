@@ -1,14 +1,13 @@
 {
-  "name": "node-weather-cli",
+  "name": "wenode",
   "version": "0.0.1",
-  "description": "node weather cli",
+  "description": "node weather console",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "weather",
-    "cli"
   ],
   "author": "LeeBox",
   "license": "MIT",
