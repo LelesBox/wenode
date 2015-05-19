@@ -31,11 +31,11 @@ var iconUnknown = {
 var iconSunny = {
 	chinese: "晴",
 	icon: [
-		"    \\".yellow + "   /    ",
-		"     .-.     ",
-		"  ― (   ) ―  ",
-		"     `-’     ",
-		"    /   \\    "
+		"    \\   /    ".bold.yellow,
+		"     .-.     ".bold.yellow,
+		"  ― (   ) ―  ".bold.yellow,
+		"     `-’     ".bold.yellow,
+		"    /   \\    ".bold.yellow
 	]
 }
 var iconPartlyCloudy = {
