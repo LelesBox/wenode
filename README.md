@@ -10,7 +10,8 @@ node index [城市拼音，默认是南京]
 额额额额。。。。。。说到这里的时候，这个接口挂了~~~
 
 效果如图：
-![img](https://github.com/LelesBox/wenode/blob/master/weather.png)
+![img](https://raw.githubusercontent.com/LelesBox/wenode/master/danzhou.png)
 
 经过windows下各种终端一轮下来的测试，发现只有我笔记本在cmder环境下是正常显示的，包括颜色，公司的电脑cmder显示中文重叠，℃显示也稀奇古怪，windows自带的powershell更是乱码。zsh这个终端则出现字符位移偏差，唉 到底是中文字符串的原因还是windows的原因，突然没动力更新下去了
 
+颜色没有添加完，添加也很方便，扩展了字符类型。只需要类似如 "天气".red 打印出来的字体颜色就是红色的了，太多了，懒得配色，还有一个就是抄wego的天气图标的时候看到各式各样的英文天气名称，真心看不懂全部 = =.
