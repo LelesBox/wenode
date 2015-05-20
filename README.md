@@ -12,3 +12,5 @@ node index [城市拼音，默认是南京]
 效果如图：
 ![img](https://github.com/LelesBox/wenode/blob/master/weather.png)
 
+经过windows下各种终端一轮下来的测试，发现只有我笔记本在cmder环境下是正常显示的，包括颜色，公司的电脑cmder显示中文重叠，℃显示也稀奇古怪，windows自带的powershell更是乱码。zsh这个终端则出现字符位移偏差，唉 到底是中文字符串的原因还是windows的原因，突然没动力更新下去了
+
