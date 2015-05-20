@@ -39,18 +39,18 @@ var iconSunny = {
 	]
 }
 var iconPartlyCloudy = {
-	chinese: "少云",
+	chinese: "多云",
 	icon: [
-		"   \\  /      ",
-		" _ /\"\".-.    ",
-		"   \\_(   ).  ",
-		"   /(___(__) ",
+		"   \\  /".yellow+"      ",
+		" _ /\"\".".yellow+"-.    ",
+		"   \\".yellow+"_(   ).  ",
+		"   /".yellow+"(___(__) ",
 		"             "
 	]
 
 }
 var iconCloudy = {
-	chinese: "多云",
+	chinese: "",
 	icon: [
 		"             ",
 		"     .--.    ",
@@ -120,7 +120,7 @@ var iconLightSleetShowers = {
 	]
 }
 var iconThunderyShowers = {
-	chinese: "雷阵雨",
+	chinese: "",
 	icon: [
 		" _`/\"\".-.    ",
 		"  ,\\_(   ).  ",
@@ -130,13 +130,13 @@ var iconThunderyShowers = {
 	]
 }
 var iconThunderyHeavyRain = {
-	chinese: "",
+	chinese: "雷阵雨",
 	icon: [
 		"     .-.     ",
 		"    (   ).   ",
 		"   (___(__)  ",
-		"  ‚‘⚡‘‚⚡‚‘   ",
-		"  ‚’‚’⚡’‚’   "
+		"  ‚‘⚡‘‚⚡‚‘   ".blue,
+		"  ‚’‚’⚡’‚’   ".blue
 	]
 }
 var iconThunderySnowShowers = {
@@ -326,6 +326,7 @@ module.exports = {
 	findeIcon: findeIcon
 }
 
+// 测试字符颜色
 /*var content = [
 	'',
 	'  v' + "fis.cli.info.version",
